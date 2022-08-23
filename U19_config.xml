@@ -1,0 +1,78 @@
+﻿<Settings>
+  <Setting
+    Type="Optic Flow Settings">
+    <lifeSpan>0.3</lifeSpan>
+    <Density>50</Density>
+    <drawDistance>50</drawDistance>
+    <tHeight>10</tHeight>
+    <pHeight>1</pHeight>
+  </Setting>
+  <Setting
+    Type="Joystick Settings">
+    <LinearSpeed>20</LinearSpeed>
+    <AngularSpeed>60</AngularSpeed>
+  </Setting>
+  <Setting
+    Type="Firefly Settings">
+    <Size>5</Size>
+    <Ratio>1</Ratio>
+    <FFmoveradius>30</FFmoveradius>
+    <RampUpDur>0.3</RampUpDur>
+    <GracePeriod>0.1</GracePeriod>
+    <CIFFmean1>5</CIFFmean1>
+    <CIFFmean2>5</CIFFmean2>
+    <CIFFSD1>5</CIFFSD1>
+    <CIFFSD2>5</CIFFSD2>
+    <RampDownDur>0.3</RampDownDur>
+    <ITIduration>0.5</ITIduration>
+    <FFacceleration>15</FFacceleration>
+    <Ratio2Obs>0</Ratio2Obs>
+  </Setting>
+  <Setting
+    Type="Circular Moving Firefly Settings">
+    <V1>5</V1>
+    <VR1>0.3333333</VR1>
+    <V2>-5</V2>
+    <VR2>0.3333333</VR2>
+    <V3>0</V3>
+    <VR3>0.3333333</VR3>
+    <V4>0</V4>
+    <VR4>0</VR4>
+    <V5>0</V5>
+    <VR5>0</VR5>
+    <V6>0</V6>
+    <VR6>0</VR6>
+    <V7>0</V7>
+    <VR7>0</VR7>
+    <V8>0</V8>
+    <VR8>0</VR8>
+    <V9>0</V9>
+    <VR9>0</VR9>
+    <V10>0</V10>
+    <VR10>0</VR10>
+    <V11>0</V11>
+    <VR11>0</VR11>
+    <SelfMotionSpeed1>30</SelfMotionSpeed1>
+    <NtrialsSM1>60</NtrialsSM1>
+    <SelfMotionSpeed2>-30</SelfMotionSpeed2>
+    <NtrialsSM2>60</NtrialsSM2>
+    <SelfMotionSpeed3>0</SelfMotionSpeed3>
+    <NtrialsSM3>60</NtrialsSM3>
+    <SelfMotionSpeed4>0</SelfMotionSpeed4>
+    <NtrialsSM4>0</NtrialsSM4>
+    <SelfMotionSpeed5>0</SelfMotionSpeed5>
+    <NtrialsSM5>0</NtrialsSM5>
+  </Setting>
+  <Setting
+    Type="Training Reward Settings">
+    <MinJuiceTime>60</MinJuiceTime>
+    <MaxJuiceTime>110</MaxJuiceTime>
+    <RewardWindow>6</RewardWindow>
+    <FFOpacity>0</FFOpacity>
+  </Setting>
+  <Setting
+    Type="Data Collection Settings">
+    <Path>C:\Users\hd840\Desktop\VR\logs</Path>
+    <Name>Test</Name>
+  </Setting>
+</Settings>
